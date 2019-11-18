@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "give the veggie name and search",
+        "description": "",
+        "id": "search-for-vegetables-and-add-to-cart;give-the-veggie-name-and-search",
+        "after": [
+          {
+            "result": {
+              "duration": 388956500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSeleniummTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17663344400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on greencart page",
+            "match": {
+              "location": "veggies_search.user_is_on_greencart_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5878994100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user searches for \"Cucumber\" vegetable",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 19
+                }
+              ],
+              "location": "veggies_search.user_searches_for_something_vegetable(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176552800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"Cucumber\" results appears",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 1
+                }
+              ],
+              "location": "veggies_search.something_results_appears(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@seleniumTest"
+          }
+        ]
+      }
+    ],
+    "name": "search for vegetables and add to cart",
+    "description": "",
+    "id": "search-for-vegetables-and-add-to-cart",
+    "keyword": "Feature",
+    "uri": "search_veggies.feature"
+  }
+]

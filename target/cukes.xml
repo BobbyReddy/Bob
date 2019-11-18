@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.107848">
+<testcase classname="search for vegetables and add to cart" name="give the veggie name and search" time="24.107848">
+<system-out><![CDATA[Given user is on greencart page.............................................passed
+When user searches for "Cucumber" vegetable.................................passed
+Then "Cucumber" results appears.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
